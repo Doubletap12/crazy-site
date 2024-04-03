@@ -1,0 +1,153 @@
+a {
+  text-decoration: none;
+  color: yellow;
+  transition: opacity 0.25s ease;
+}
+a:hover {
+  opacity: 0.7;
+}
+.header-top a {
+  color: white;
+}
+.header {
+  height: 100vh;
+  background-image: url(../фон\ 4.jpg);
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 35%,
+    100% 56%,
+    100% 90%,
+    50% 100%,
+    0 90%,
+    0 55%,
+    0% 35%,
+    0 0
+  );
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 75px;
+  color: white;
+  background-color: black;
+}
+
+.logo {
+  font-size: 70px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+.menu-element {
+  margin-right: 120px;
+  font-size: 20px;
+}
+.menu-element:last-child {
+  margin-right: 0;
+}
+.menu-element a:hover {
+  color: yellow;
+}
+
+.header-center {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 200px);
+}
+.name {
+  font-size: 58px;
+  line-height: 74px;
+}
+.description {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.about-me {
+  display: flex;
+  height: 100vh;
+}
+.about-me .left {
+  flex: 1 1 40%;
+  padding-right: 40px;
+}
+.about-me .right {
+  flex: 1 1 60%;
+}
+.about-me__image {
+  width: 400px;
+  margin-left: 90px;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
+.about-me__title {
+  font-size: 35px;
+}
+.about-me__description {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: black;
+}
+.second-title {
+  text-align: center;
+  border: 8px solid yellow;
+}
+.interests {
+  padding: 40px 20px;
+  height: 100vh;
+}
+.interests-image {
+  width: 250px;
+  border-radius: 20px;
+}
+.interests__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.interests-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 10px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.interests-title {
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.interests-text {
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 30px;
+}
+.socials-element {
+  margin-right: 120px;
+  font-size: 20px;
+}
